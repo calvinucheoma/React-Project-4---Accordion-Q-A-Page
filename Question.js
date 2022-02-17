@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
 
+//Remember to add the npm and also npm react icons
+
 const Question = ({title,info}) => {
 
   const [showInfo, setShowInfo] = useState(false);
